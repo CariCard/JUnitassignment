@@ -64,7 +64,7 @@ public class wordOccurances {
 	     }
 	     
 	     try {
-	         WordFrequency wf = new WordFrequency();
+	         WordOccurances wf = new WordOccurances();
 	         wf.processFile(new File(args[0]));
 	         
 	         //-- Get the results.
